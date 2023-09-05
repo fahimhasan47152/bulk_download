@@ -1,0 +1,19 @@
+{
+  "name": "bulk_download",
+  "version": "1.0.0",
+  "description": "download multiple images from links in a single click",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "MD Nazmul Hassan Fahim",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "fs": "^0.0.1-security",
+    "mime-types": "^2.1.35",
+    "path": "^0.12.7",
+    "puppeteer": "^21.1.1"
+  }
+}
